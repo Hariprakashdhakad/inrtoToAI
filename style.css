@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #893232;
+    color: #fff;
+    padding: 10px;
+}
+a {
+   text-decoration: none;
+   color:#FFFFFF; 
+}
+a:hover{
+    background-color: rgb(17, 121, 190);
+}
+.about{
+    text-align: center;
+}
+.about span {
+    
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.about span {
+    margin: 10px 0;
+}
+
+.homepage{
+    text-align: center;
+}
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.image-container img {
+    max-width: 100%;
+    margin: 0 30px; 
+}
+.image-container img {
+    width: 300px;
+    height: 200px; 
+    object-fit: cover; 
+}
+.contact{
+    text-align: center;
+}
